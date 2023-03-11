@@ -32,6 +32,10 @@
     .primary {
         color: var(--bs-primary);
     }
+    
+    .bg-blur {
+        backdrop-filter: blur(10px);
+    }
 
     .emphasis {
         color: var(--bs-emphasis-color);
@@ -45,7 +49,7 @@
 <body>
     <header>
         <!-- navbar -->
-        <nav id="nav" class="navbar navbar-expand-lg bg-transparent fixed-top">
+        <nav id="nav" class="navbar navbar-expand-lg bg-blur sticky-top">
             <div class="container">
                 <a class="navbar-brand fw-bold" href="index.php">Hasbii</a>
                 <button class="btn nofill emphasis" onclick="theme()">
